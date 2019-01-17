@@ -15,10 +15,5 @@ def take_a_number(katz_deli,line_of_ppl)
   puts ("Welcome, #{katz_deli} You are number #{line_of_ppl+1} in line.")
 end
 
-
-Same as #each, but passes the index of the element instead of the element itself.
-
-An Enumerator is returned if no block is given.
-
-a = [ "a", "b", "c" ]
-a.each_index {|x| print x, " -- " }
+test_array = ["beans","sprouts"]
+line(test_array)
