@@ -22,8 +22,12 @@ end
 
 def now_serving(katz_deli)
   current = katz_deli[0]
-  puts("Now serving #{current}")
+  if katz_deli.empty?
+    puts ("There is nobody waiting to be served!")
+  else
+  puts("Currently serving #{current}")
   katz_deli.shift()
+end
 end
 #test_array = ["beans","sprouts"]
 #line(test_array)
