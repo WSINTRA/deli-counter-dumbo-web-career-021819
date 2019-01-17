@@ -6,7 +6,7 @@ def line(katz_deli)
   if katz_deli.empty?
     puts ("The line is currently empty.")
   else
-    katz_deli.each{|x| line.push(katz_deli.index(x)+1)}
+    katz_deli.each{|x| line.push(katz_deli.index(x)+1,x)}
   puts ("The line is currently: #{line}")
 end
 end
