@@ -14,11 +14,16 @@ end
 
 def take_a_number(katz_deli,name)
   katz_deli.push(name)
-  line_number = katz_deli.length 
+  line_number = katz_deli.length
 
   puts ("Welcome, #{name}. You are number #{line_number} in line.")
 
 end
 
+def now_serving(katz_deli)
+  current = katz_deli[0]
+  puts("Now serving #{current}")
+  katz_deli.shift()
+end
 #test_array = ["beans","sprouts"]
 #line(test_array)
