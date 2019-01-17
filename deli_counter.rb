@@ -16,5 +16,5 @@ def take_a_number(katz_deli,line_of_ppl)
   puts ("Welcome, #{katz_deli} You are number #{line_of_ppl+1} in line.")
 end
 
-test_array = ["beans","sprouts"]
-line(test_array)
+#test_array = ["beans","sprouts"]
+#line(test_array)
